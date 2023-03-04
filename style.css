@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+header, footer{
+    background-color: #1f2937
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#section-1{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 50px 100px;
+}
+
+#section-1a{
+    margin-right:50px;
+    flex-basis: 400px;
+}
+
+#hero-main-text{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight:800;
+    margin: 2px;
+}
+
+#hero-secondary-text {
+    font-size:18px;
+    color: #e5e7eb;
+    margin: 2px;
+}
+
+button {
+    background-color:#3882f6;
+    color:#f9faf8;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border:none;
+    font-size: 20px;
+}
+
+#section-2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#1f2937;
+    padding:75px 10px;
+}
+
+#extra-info{
+    font-size:36px;
+    font-weight:bold;
+}
+
+#section-2 .row{
+    display:flex;
+}
+
+.customer{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-3{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:#e5e7eb;
+    padding:50px 350px;
+}
+
+#quote{
+    color:#1f2937;
+    font-size:36px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+#quote-owner{
+    align-self: flex-end;
+    color: black;
+    font-weight:bolder;
+    font-size:20px;
+}
+
+#section-4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#section-4-content{
+    display: flex;
+    margin:50px;
+    background-color: #3882f6;
+    padding: 25px 75px;
+}
+
+#section-4-content button{
+    border:#f9faf8 solid;
+    padding: 0 20px;
+}
+
+#call-main{
+ font-size:24px;
+ font-weight: bold;
+}
+
+#call-sub{
+ font-size: 16px;
+}
+
+#left-content{
+    margin-right:50px;
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
